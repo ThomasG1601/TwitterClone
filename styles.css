@@ -1,0 +1,843 @@
+.backgroundall { 
+    display: flex;
+    justify-content: flex-start;
+    background-color: #1F2937;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #15202B;
+    height: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26.5%;
+    border: grey;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    min-width: 400%;
+}
+
+.homeart {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #15202B;
+    height: 7%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 26.6%;
+    width: 39%;
+    border: grey;
+}
+
+.aside {
+    display: flex;
+    background-color: #15202B;
+    height: 150%;
+    position: absolute;
+    top: 0;
+    left: 65.7%;
+    width: 34.3%;
+    border: grey;
+}
+
+
+
+.list {
+    list-style: none;
+}
+
+.listleg {
+    position: absolute;
+    list-style: none;
+    margin-left: 0px;
+    margin-top: 47px;
+}
+
+.svghome {
+    fill: white;
+    margin-left: 25px;
+}
+
+.svglogo {
+    fill: white;
+    margin-left: 25px;
+    margin-top: 24px;
+}
+
+.svgmore {
+    fill: white;
+    margin-left: 25px;
+    margin-top: -97px;
+}
+
+.buttontweetnav {
+    background-color: #3B81F6;
+    border: none;
+    border-color: #3B81F6;
+    color: white;
+    position: absolute;
+    font-family: helvetica;
+    border-style: solid;
+    font-size: 15px;
+    border-width: 4px;
+    border-radius: 30px;
+    margin-left: 65px;
+    margin-top: 535px;
+    padding: 8px 70px;
+}
+
+.buttontweetnav:hover {
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+
+.buttontweetnav2 {
+    display: none;
+    background-color: #3B81F6;
+    border: none;
+    border-color: #3B81F6;
+    color: white;
+    position: absolute;
+    border-style: solid;
+    margin-left: 65px;
+    margin-top: 535px;
+    border-radius: 30px;
+    padding: 12px 15px;
+}
+
+.buttontweetnav2:hover {
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+
+.svglogo:hover {
+    fill: #2A59A6;
+    cursor: pointer;
+}
+
+.svgmore:hover {
+    fill: #2A59A6;
+    cursor: pointer;
+}
+
+.pessicon {
+    position: absolute;
+    height: 50px;
+    margin-top: 615px;
+    margin-left: 65px;
+}
+
+.pessipseudo {
+    font-family: helvetica;
+    position: absolute;
+    color: white;
+    margin-top: 620px;
+    margin-left: 125px;
+}
+
+.pessiarobase {
+    font-family: helvetica;
+    position: absolute;
+    color: grey;
+    font-size: 13px;
+    margin-top: 640px;
+    margin-left: 125px;
+}
+
+.hometext {
+    color: white;
+}
+
+.texthome {
+    color: white;
+    font-family: helvetica;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 21px;
+    position: fixed;
+}
+
+.whatsup {
+    background-color: #15202B;
+    height: 15%;
+    position: absolute;
+    top: 7.2%;
+    left: 26.6%;
+    width: 39%;
+    border: grey;
+}
+
+.pessiicon {
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 55px;
+}
+
+.textarea {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 18px;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    font-family: helvetica;
+    color: grey;
+    resize: none;
+    overflow-y: auto;
+}
+
+.stweet {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #15202B;
+    height: 20%;
+    position: absolute;
+    top: 97.3%;
+    left: 26.6%;
+    width: 39%;
+    border: grey;
+}
+
+.emptytweet {
+    background-color: #15202B;
+    height: 32.5%;
+    position: absolute;
+    top: 117.5%;
+    left: 26.6%;
+    width: 39%;
+    border: grey;
+}
+
+.svgstar {
+    fill: white;
+    margin-top: 2%;
+    margin-left: 92%;
+}
+
+.svgone {
+    fill: #2A59A6;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+.svgtwo {
+    fill: #2A59A6;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.svgthree {
+    fill: #2A59A6;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 70px;
+}
+
+.svgfour {
+    fill:#2A59A6;
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 70px;
+}
+
+.svgfive {
+    fill: #2A59A6;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.buttontweet {
+    background-color: #3B81F6;
+    border: none;
+    border-color: #3B81F6;
+    color: white;
+    position: absolute;
+    font-family: helvetica;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 30px;
+    margin-left: 415px;
+    margin-top: 70px;
+    padding: 5px 20px;
+}
+
+.buttontweet:hover {
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+
+.fieldwu {
+    position: absolute;
+    margin-left: 15px;
+    background: transparent;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    position: absolute;
+    margin-top: 25px;
+    font-size: 20px;
+    color: grey;
+}
+
+.textlist {
+    color: white;
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+.textlist:hover {
+    color: #2A59A6;
+    cursor: pointer;
+}
+
+.listtext {
+    margin-top: 34px;
+}
+
+.firsttweet {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #15202B;
+    height: 72%;
+    position: absolute;
+    top: 25%;
+    left: 26.6%;
+    width: 39%;
+    border: grey;
+}
+
+.iconrt {
+    fill: grey;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.textrt {
+    color: grey;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.cr7icon {
+    height: 65px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.pseudocr7 {
+    position: absolute;
+    font-family: helvetica;
+    margin-top: 40px;
+    margin-left: 80px;
+    color: white;
+}
+
+.arocr7 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 220px;
+    font-family: helvetica;
+    font-size: 14px;
+    color: grey;
+}
+
+.legendtext {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 80px;
+    font-family: helvetica;
+    color: white;
+}
+
+.siuuu {
+    font-family: helvetica;
+    position: absolute;
+    color: #4D85CA;
+    margin-left: 80px;
+    margin-top: 140px;
+}
+
+.cr7img {
+    position: absolute;
+    height: 55%;
+    margin-left: 45px;
+    margin-top: 160px;
+}
+
+.com {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 480px;
+    color: grey;
+}
+
+.nbcom {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 482px;
+    color: grey;
+    font-family: helvetica;
+}
+
+.rt {
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 480px;
+    fill: #11A274;
+}
+
+.nbrt {
+    position: absolute;
+    margin-left: 190px;
+    margin-top: 482px;
+    color: #11A274;
+    font-family: helvetica;
+}
+
+.like {
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 480px;
+    color: red;
+}
+
+.nblike {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 482px;
+    color: red;
+    font-family: helvetica;
+}
+
+.marquiicon {
+    position: absolute;
+    height: 83px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.aromarqui {
+    color: grey;
+    position: absolute;
+    font-size: 14px;
+    margin-top: 13px;
+    font-family: helvetica;
+    margin-left: 205px;
+}
+
+.pseudomarqui {
+    position: absolute;
+    margin-top: 13px;
+    margin-left: 100px;
+    font-family: helvetica;
+    color: white;
+}
+
+.marquilegend {
+    font-family: helvetica;
+    color: white;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.comm {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 55px;
+    color: grey;
+}
+
+.nbcomm {
+    position: absolute;
+    margin-top: 112px;
+    margin-left: 85px;
+    color: grey;
+    font-family: helvetica;
+}
+
+.rtm {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 165px;
+    color: #11A274;
+}
+
+.nbrtm {
+    position: absolute;
+    margin-top: 112px;
+    margin-left: 195px;
+    color: #11A274;
+    font-family: helvetica;
+}
+
+.likem {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 275px;
+    color: red;
+}
+
+.nblikem {
+    position: absolute;
+    margin-top: 112px;
+    margin-left: 305px;
+    color: red;
+    font-family: helvetica;
+}
+
+.fieldtr {
+    background-color: #1F2937;
+    margin-top: 15px;
+    margin-left: 40px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+}
+
+.tfy {
+    background-color: #1F2937;
+    height: 6%;
+    position: absolute;
+    top: 5%;
+    left: 40px;
+    width: 83%;
+    border: grey;
+}
+
+.htpnld {
+    background-color: #1F2937;
+    height: 6%;
+    position: absolute;
+    top: 11%;
+    left: 39.3px;
+    width: 83%;
+    border: grey;
+}
+
+.htpsi {
+    background-color: #1F2937;
+    height: 6%;
+    position: absolute;
+    top: 17%;
+    left: 39.3px;
+    width: 83%;
+    border: grey;
+}
+
+.htpbd {
+    background-color: #1F2937;
+    height: 6%;
+    position: absolute;
+    top: 23%;
+    left: 39.3px;
+    width: 83%;
+    border: grey;
+}
+
+.htmp {
+    background-color: #1F2937;
+    height: 6%;
+    position: absolute;
+    top: 29%;
+    left: 39.3px;
+    width: 83%;
+    border: grey;
+}
+
+.htnb {
+    background-color: #1F2937;
+    height: 6%;
+    position: absolute;
+    top: 35%;
+    left: 39.3px;
+    width: 83%;
+    border: grey;
+}
+
+.shmo {
+    background-color: #1F2937;
+    height: 5%;
+    position: absolute;
+    top: 41%;
+    left: 39.3px;
+    width: 83%;
+    border: grey;
+}
+
+.tfyt {
+    color: white;
+    font-size: 25px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htpnldtone {
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htpnldttwo {
+    color: grey;
+    font-size: 15px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htpsitone {
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htpsittwo {
+    color: grey;
+    font-size: 15px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htpbdtone {
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htpbdttwo {
+    color: grey;
+    font-size: 15px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htmptone {
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htmpttwo {
+    color: grey;
+    font-size: 15px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htnbtone {
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.htnbttwo {
+    color: grey;
+    font-size: 15px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.shmot {
+    color: #4A7DBA;
+    font-size: 15px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.shmot:hover {
+    text-decoration: underline;
+    color: #4A7DBA;
+    cursor: pointer;
+}
+
+.wtf {
+    background-color: #1F2937;
+    height: 5%;
+    position: absolute;
+    top: 48%;
+    left: 39.3px;
+    width: 83%;
+    border: grey;
+}
+
+.lpdzicon {
+    background-color: #1F2937;
+    height: 6%;
+    position: absolute;
+    top: 53%;
+    left: 39.3px;
+    width: 15%;
+    border: grey;
+}
+
+.lpdzpseudo {
+    background-color: #1F2937;
+    height: 3%;
+    position: absolute;
+    top: 53%;
+    left: 116px;
+    width: 43%;
+    border: grey;
+}
+
+.lpdznom {
+    background-color: #1F2937;
+    height: 3%;
+    position: absolute;
+    top: 56%;
+    left: 116px;
+    width: 43%;
+    border: grey;
+}
+
+.lpdzfollow {
+    background-color: #1F2937;
+    height: 6%;
+    position: absolute;
+    top: 53%;
+    left: 340px;
+    width: 25.2%;
+    border: grey;
+}
+
+.shmowtf {
+    background-color: #1F2937;
+    height: 4%;
+    position: absolute;
+    top: 59%;
+    left: 39.3px;
+    width: 83%;
+    border: grey;
+}
+
+.wtft {
+    color: white;
+    font-size: 25px;
+    font-family: helvetica;
+    margin-left: 15px
+}
+
+.lpdziconimg {
+    height: 60px;
+    margin-top: 3px;
+}
+
+.lpdzpseudot {
+    color: white;
+    font-family: helvetica;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.lpdznomt {
+    color: grey;
+    font-family: helvetica;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.buttonlpdzfollow {
+    background-color: #1F2937;
+    border-color: #3775DE;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 30px;
+    color: #3775DE;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 7px 25px;
+}
+
+.buttonlpdzfollow:hover {
+    background-color: #C0C0C0;
+    cursor: pointer;
+}
+
+.shmowtft {
+    color: #4A7DBA;
+    font-size: 15px;
+    font-family: helvetica;
+    margin-left: 15px;
+}
+
+.shmowtft:hover {
+    text-decoration: underline;
+    color: #4A7DBA;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 761px) and (max-width: 1000px) { /*tablette*/
+    main {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        width:150px;
+    }
+
+    body > nav > second > ul {
+        display: none;
+    }
+
+    body > nav > text {
+        display: none;
+    }
+    
+    nav > .buttontweetnav2 {
+        display: block;
+    }
+
+    nav > .buttontweetnav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) { /*smartphone*/
+    body > .aside {
+        display: none;
+    }
+
+    aside > all  {
+        display: none;
+    }
+
+    body > nav > second > ul {
+        display: none;
+    }
+
+    body > nav > text {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    nav > .buttontweetnav2 {
+        display: block;
+    }
+
+    nav > .buttontweetnav {
+        display: none;
+    }
+}
