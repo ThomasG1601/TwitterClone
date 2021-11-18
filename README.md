@@ -1,9 +1,9 @@
 TwitterClone
 
-Why
+Why :
 I created this TwitterClone because of a project in HTML class.
 
-What
+What :
 My TwitterClone is a clone of the Twitter website.
 The TwitterClone let the user navigate between tweets, people, and topic. I used HTML5 and CSS3 throught Visual Studio Code.
 For me, it was difficult to put responsive in.
@@ -12,12 +12,11 @@ I learn to build an HTML project, to manage my time and to order my code.
 
 How it looks
  
+<img src="images/screen1.PNG">
+<img src="images/screen2.PNG">
 
 
-
-
-
-Who
+Who :
 Thomas Gaudin
 
 WARNING!!
